@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PWA-Expense-tracker-app/static/css/main.6dbe727d.chunk.css",
+    "main.js": "/PWA-Expense-tracker-app/static/js/main.032fddc3.chunk.js",
+    "main.js.map": "/PWA-Expense-tracker-app/static/js/main.032fddc3.chunk.js.map",
+    "runtime-main.js": "/PWA-Expense-tracker-app/static/js/runtime-main.d6d65e01.js",
+    "runtime-main.js.map": "/PWA-Expense-tracker-app/static/js/runtime-main.d6d65e01.js.map",
+    "static/js/2.3b9ddf4f.chunk.js": "/PWA-Expense-tracker-app/static/js/2.3b9ddf4f.chunk.js",
+    "static/js/2.3b9ddf4f.chunk.js.map": "/PWA-Expense-tracker-app/static/js/2.3b9ddf4f.chunk.js.map",
+    "index.html": "/PWA-Expense-tracker-app/index.html",
+    "static/css/main.6dbe727d.chunk.css.map": "/PWA-Expense-tracker-app/static/css/main.6dbe727d.chunk.css.map",
+    "static/js/2.3b9ddf4f.chunk.js.LICENSE.txt": "/PWA-Expense-tracker-app/static/js/2.3b9ddf4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6d65e01.js",
+    "static/js/2.3b9ddf4f.chunk.js",
+    "static/css/main.6dbe727d.chunk.css",
+    "static/js/main.032fddc3.chunk.js"
+  ]
+}
