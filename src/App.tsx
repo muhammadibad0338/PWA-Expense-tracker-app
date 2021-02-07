@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { GlobalProvider } from '././context/GlobalState';
+import Header from './component/Header';
+import Balance from './component/Balance';
+import IncomeExpense from './component/IncomeExpense';
+import TransactionList from './component/TransactionList';
+import AddTransaction from './component/AddTransaction';
+import {requestPermission} from './firebaseServise';
 
 function App() {
+  requestPermission();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalProvider>
+      <div className="App">
+        <Header/>
+        <Balance/>
+        <IncomeExpense/>
+        <TransactionList/>
+        <AddTransaction/>
+      </div>
+    </GlobalProvider>
+
   );
 }
 
